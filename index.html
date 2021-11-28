@@ -3,10 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>webRtc</title>
+    <style>
+/*        #video {
+            filter: grayscale(80%);
+        }*/
+    </style>
 </head>
 <body>
     <video autoplay playsinline id="video"></video>
-    <script src="获取音视频设备.js"></script>
+
+    <button onclick="start()">开始录制</button>
+    <button onclick="stop()">停止录制</button>
+    <button onclick="rePlay()">回放</button>
+    <video id="rePlayVideo"></video>
+<!--    <script src="获取音视频设备.js"></script>-->
     <script src="./采集音视频数据.js"></script>
 </body>
 </html>
+vdvdsvsdvd
